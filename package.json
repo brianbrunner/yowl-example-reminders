@@ -1,6 +1,6 @@
 {
   "name": "yowl-exmaple-reminders",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A reminders bot built using Yowl.",
   "main": "index.js",
   "directories": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "moment": "^2.18.1",
     "yowl": "^0.5.1",
-    "yowl-dialog-manager": "^0.2.3",
+    "yowl-dialog-manager": "^0.3.0",
     "yowl-jobs-kue": "^0.1.2",
     "yowl-parse-dates": "^0.1.0",
     "yowl-platform-cli": "^0.2.1",

@@ -1,6 +1,6 @@
 var moment = require('moment');
 
-var DialogManager = require('../yowl-dialog-manager')();
+var DialogManager = require('yowl-dialog-manager')();
 
 DialogManager.add('greet', {
   test: function(context, event) {
