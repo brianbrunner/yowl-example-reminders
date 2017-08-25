@@ -1,6 +1,6 @@
 {
   "name": "yowl-exmaple-reminders",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A reminders bot built using Yowl.",
   "main": "index.js",
   "directories": {

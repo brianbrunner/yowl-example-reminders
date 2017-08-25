@@ -21,13 +21,16 @@ The combined functionality of these packages allows us to implement a basic
 chatbot in a well structured project using relatively small number of lines
 of code.
 
-## Run Locally
+Due to `yowl-session-redis` and `yowl-jobs-kue`, you will also need a local
+`redis-server`.
+
+## Run With Local Interface
 
     node index.js --local --session XXXX --auth
 
 Replace `XXXX` with a unique session id.
 
-## Run of Facebook
+## Run With Facebook Messenger Integration
 
 Follow the instructions in the [yowl-platform-facebook readme](https://github.com/brianbrunner/yowl-platform-facebook)
 to get setup with Facebook messenger.
