@@ -1,0 +1,46 @@
+{
+  "name": "yowl-exmaple-reminders",
+  "version": "0.1.0",
+  "description": "A reminders bot built using Yowl.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "jshint lib/*.js lib/**/*.js",
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbrunner/yowl-exmaple-reminders.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "brian.brunner@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianbrunner/yowl-exmaple-reminders/issues"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "yowl": "^0.5.1",
+    "yowl-dialog-manager": "^0.2.3",
+    "yowl-jobs-kue": "^0.1.2",
+    "yowl-parse-dates": "^0.1.0",
+    "yowl-platform-cli": "^0.2.1",
+    "yowl-platform-facebook": "^0.3.0",
+    "yowl-session-memory": "^0.2.3",
+    "yowl-session-redis": "^0.1.0"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "browserify": "latest",
+    "mocha": "latest"
+  },
+  "jshintConfig": {
+    "node": true,
+    "proto": true
+  },
+  "homepage": "https://github.com/brianbrunner/yowl-exmaple-reminders#readme"
+}
